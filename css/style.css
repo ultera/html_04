@@ -17,7 +17,7 @@
 .bg3 {
 	width: 100%;
 	height: 100vh;
-	min-height: 860px;
+	min-height: 850px;
 	background: linear-gradient(to top, #0c739f, #41c5d3);
 }
 /* end BACKGROUND */
@@ -27,7 +27,7 @@
 	top: 0px;
 	left: 50%;
 	width: 1000px;
-  height: 1000px;
+  height: 986px;
 	margin-left: -500px;
   background: white;
 	font-family: Tahoma;
@@ -64,9 +64,8 @@ header {
 }
 .header-right{
 	display: table-cell;
-	width: 670px;
 	height: 100%;
-	padding-right: 30px;
+	padding-left: 330px;
 	vertical-align: top;
 	text-align: right;
 }
@@ -82,7 +81,6 @@ header {
 .sub-menu {
 	width: 342px;
 	height: 60px;
-	padding-left: 370px;
 }
 .sub-menu a{
 	color: #128aa7;
@@ -109,7 +107,8 @@ header {
 	position: absolute;
 	z-index: 5;
 	top: 1px;
-	width: 100%;
+	width: 945px;
+	padding-left: 55px;
 	border-top: 1px solid #cacbcb;
 	background: #343434;
 	-webkit-box-shadow: 0px 3px 1px 0px rgba(0,0,0,0.6);
@@ -125,8 +124,8 @@ header {
 }
 .menu ul li {
 	display: inline-block;
-  padding: 0 25px;
   height: 25px;
+	padding: 0 50px 0 10px;
   color: white;
   line-height: 25px;
   letter-spacing: normal;
@@ -134,7 +133,7 @@ header {
 .dropbox {
 	position: absolute;
 	z-index: 1;
-	left: 103px;
+	left: 170px;
 	top: 440px;
 	background: #343434;
 	color: white;
@@ -145,10 +144,11 @@ header {
   line-height: 0;
 	font-size: 14px;
   letter-spacing: -1px;
+	list-style: none;
 }
 .dropbox ul li {
   height: 25px;
-	padding: 0 25px;
+	padding: 0 50px 0 10px;
   color: white;
   line-height: 25px;
   letter-spacing: normal;
@@ -159,22 +159,25 @@ header {
 	position: relative;
 	margin-top: 28px;
 	width: 1000px;
-	height: 558px;
+	height: 544px;
+	color: #424c43;
 	text-align: center;
 }
 .lside {
 	left: 0px;
 	float: left;
-	width: 200px;
+	width: 210px;
 	height: 100%;
+	border-right: 1px solid #c7cacf;
 	background: #edeef0;
 	overflow: hidden;
 }
 .rside {
 	left: 800px;
 	float: left;
-	width: 200px;
+	width: 210px;
 	height: 100%;
+	border-left: 1px solid #c7cacf;
 	overflow: hidden;
 	background: #edeef0;
 }
@@ -183,9 +186,9 @@ header {
 .content {
 	left: 200px;
 	float: left;
-	width: 600px;
+	width: 578px;
 	height: 100%;
-	min-width: 600px;
+	min-width: 578px;
 	overflow: hidden;
 }
 
@@ -193,9 +196,13 @@ header {
 .footer {
 	position: absolute;
 	left: 50%;
-	top: 1010px;
+	top: 1000px;
 	margin-left: -88px;
 	color: white;
 	text-align: center;
 	font-size: 12px;
+}
+
+.my-h3 {
+	text-shadow: 0px 0px 1px #a0a4a2;
 }
