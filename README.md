@@ -5,4 +5,6 @@
 https://www.mobila.name/post/5172c6cbb4ab3/
 - fixed
 
+Всі пункти головного меню повинні бути посиланням (забула тег <a>)
+- fixed
 
